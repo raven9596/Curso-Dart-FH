@@ -64,7 +64,23 @@ main() {
 
   villanos2.add('Lex');
 
-  print(villanos2.first);
+  // print(villanos2.first);
 
-  // Mapas
+  // ============================ Mapas - Diccionarios - Objetos
+  // llave: valor
+
+  Map<dynamic, String> ironman = {
+    'nombre': 'Tony Stark',
+    'poder' : 'Inteligencia y El dinero',
+    10 : 'Nivel de energia'
+  };
+
+  // print(ironman[10]);
+
+  Map<String, dynamic> capitan = new Map();
+
+  capitan.addAll({'nombre': 'Steve', 'poder': 'Soportar suero sin morir'});
+
+  print(capitan);
+
 }
