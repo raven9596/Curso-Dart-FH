@@ -1,14 +1,15 @@
 import 'clases/persona.dart';
 
 main() {
+  final persona = new Persona(edad: 50, nombre: 'Jose');
+  final persona2 = new Persona.persona30('Gregory');
 
-  final persona = new Persona();
+  // persona
+  //   ..nombre = 'Gilbert'
+  //   ..edad = 33;
+  //  ..bio = 'Nacio por ahi';
 
-  persona..nombre = 'Gilbert'
-         ..edad = 33;
-        //  ..bio = 'Nacio por ahi';
+  // persona.bio = 'Cambie el valor';
 
-  print(persona);
+  print(persona2);
 }
-
-
